@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FIPPod_BaiduIDCard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FIPPod_BaiduIDCard.'
+  s.summary          = '百度人脸识别SDK Pod库，只支持真机调试'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
