@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E41C12A85C911E1F59792DF9E915A1B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B652D21F41A6FD8CBB057CE670DCEF4F /* ReplaceMe.m */; };
+		36F37DEB9BD9B18755975FE877A70C31 /* FIPPod_BaiduIDCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FCD25D7DEF514D77E8C80013489356 /* FIPPod_BaiduIDCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A99B6EF0A8C3F06E7EA78456FEB18A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		906FDB5F45AD0EE6AA5C27A3E8DED489 /* Pods-FIPPod_BaiduIDCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9CCA12F91F4C022A95A71A67297B631 /* Pods-FIPPod_BaiduIDCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5217F6807E75B225EB6083293540A4 /* Pods-FIPPod_BaiduIDCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776D0B33D5A3BEBC9D40969D1545D857 /* Pods-FIPPod_BaiduIDCard_Example-dummy.m */; };
+		B61020F860B2F60D0F4888EA0BE62326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C1F69008E3E17AE90383CBC3C659F96C /* Pods-FIPPod_BaiduIDCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6D5E1974A02715F0977814F66546F6 /* Pods-FIPPod_BaiduIDCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A21AC085C675DC62AE1AA4B8058743 /* FIPPod_BaiduIDCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3729F71AFEF6D7A4D6CB19E39B8CA /* FIPPod_BaiduIDCard-dummy.m */; };
+		D3A0FAFC6B68478413D83A2C10E54FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F93879C842A361FE3AE9A28D0A206067 /* Pods-FIPPod_BaiduIDCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A0723E697683E771BA116A65994CA /* Pods-FIPPod_BaiduIDCard_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36E20E5E09EAC139D933D7BFF9776556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A776F1C62EF1D3234015C04A219E916;
+			remoteInfo = FIPPod_BaiduIDCard;
+		};
+		3990F8BB30C310EA0675EAED4BE4AF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889989FAA1E42FB10C573A1FD8C9D062;
+			remoteInfo = "Pods-FIPPod_BaiduIDCard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C645CE579FC4F92DF8D4F11999018 /* Pods-FIPPod_BaiduIDCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FIPPod_BaiduIDCard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		05430C7883203DBF8A4A43DFD08D5F54 /* Pods-FIPPod_BaiduIDCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FIPPod_BaiduIDCard_Tests.modulemap"; sourceTree = "<group>"; };
+		08086EBDA76D0DA0968CD415DE86F327 /* Pods-FIPPod_BaiduIDCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPPod_BaiduIDCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1091632B6BB848731B37E73F4ADE9C61 /* Pods-FIPPod_BaiduIDCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FIPPod_BaiduIDCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10E52DFC59ED8B8A1F9F3BEEEA469567 /* Pods-FIPPod_BaiduIDCard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPPod_BaiduIDCard_Example-Info.plist"; sourceTree = "<group>"; };
+		10FAC6E44CF16011198061BE856DF457 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1DD412ABF46B1297258FDC1C761679EF /* Pods_FIPPod_BaiduIDCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FIPPod_BaiduIDCard_Tests.framework; path = "Pods-FIPPod_BaiduIDCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5D7AC470DF6459BFD4CEE2818B2AD3 /* Pods-FIPPod_BaiduIDCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FIPPod_BaiduIDCard_Example.modulemap"; sourceTree = "<group>"; };
+		2B1A746AE2CF91E8CC2AD0357818EBDA /* Pods_FIPPod_BaiduIDCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FIPPod_BaiduIDCard_Example.framework; path = "Pods-FIPPod_BaiduIDCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33FCD25D7DEF514D77E8C80013489356 /* FIPPod_BaiduIDCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPPod_BaiduIDCard-umbrella.h"; sourceTree = "<group>"; };
+		554AE45F4D4CA23898AA2D33A09CB92E /* Pods-FIPPod_BaiduIDCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPPod_BaiduIDCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55B5E2262B40522C0F263BB3A945CBD3 /* FIPPod_BaiduIDCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FIPPod_BaiduIDCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60C8B7F9FCEE4971DFE8D0DAAFD81773 /* FIPPod_BaiduIDCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FIPPod_BaiduIDCard-prefix.pch"; sourceTree = "<group>"; };
+		65294DA89E1ABB2D8BF58608F3087887 /* Pods-FIPPod_BaiduIDCard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPPod_BaiduIDCard_Tests-Info.plist"; sourceTree = "<group>"; };
+		6AD0DCF151682175496C5F66290C206F /* Pods-FIPPod_BaiduIDCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPPod_BaiduIDCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B43C0CFA86836C781A43F34C14AB00B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6EB3729F71AFEF6D7A4D6CB19E39B8CA /* FIPPod_BaiduIDCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FIPPod_BaiduIDCard-dummy.m"; sourceTree = "<group>"; };
+		776D0B33D5A3BEBC9D40969D1545D857 /* Pods-FIPPod_BaiduIDCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FIPPod_BaiduIDCard_Example-dummy.m"; sourceTree = "<group>"; };
+		7AB80C23FF45FEBD231F4598CDBC7373 /* Pods-FIPPod_BaiduIDCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPPod_BaiduIDCard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8CDD674EA30F2F2B8D7FCB6DF5B78203 /* FIPPod_BaiduIDCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FIPPod_BaiduIDCard-Info.plist"; sourceTree = "<group>"; };
+		8DF340D4C30BA045FB29C999A6D6C0CC /* Pods-FIPPod_BaiduIDCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FIPPod_BaiduIDCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A2A0723E697683E771BA116A65994CA /* Pods-FIPPod_BaiduIDCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FIPPod_BaiduIDCard_Tests-dummy.m"; sourceTree = "<group>"; };
+		9C27A5EBD0743D4B90640C145DF23671 /* FIPPod_BaiduIDCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FIPPod_BaiduIDCard.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5687E52A8DE753702FA3C7693CE645D /* FIPPod_BaiduIDCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FIPPod_BaiduIDCard.framework; path = FIPPod_BaiduIDCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B652D21F41A6FD8CBB057CE670DCEF4F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FIPPod_BaiduIDCard/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CE1BE1E6E130B5C6090523C346E4D146 /* FIPPod_BaiduIDCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FIPPod_BaiduIDCard.xcconfig; sourceTree = "<group>"; };
+		DC6D5E1974A02715F0977814F66546F6 /* Pods-FIPPod_BaiduIDCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIPPod_BaiduIDCard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E9CCA12F91F4C022A95A71A67297B631 /* Pods-FIPPod_BaiduIDCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FIPPod_BaiduIDCard_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF0A31F6ED4E47EAAD75E34A9F944072 /* Pods-FIPPod_BaiduIDCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FIPPod_BaiduIDCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA4366AE45E11EEE18CD8D733EBAE53 /* Pods-FIPPod_BaiduIDCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FIPPod_BaiduIDCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562B52B4E072FDF260A6CF38CFF34B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A99B6EF0A8C3F06E7EA78456FEB18A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A120A4E7F66BDA4B6AE60107E21EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A0FAFC6B68478413D83A2C10E54FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A99F8EF02DE1C569D23F582856FF99B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61020F860B2F60D0F4888EA0BE62326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162BA4934412AE107F1DD17DB0B2C51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5687E52A8DE753702FA3C7693CE645D /* FIPPod_BaiduIDCard.framework */,
+				2B1A746AE2CF91E8CC2AD0357818EBDA /* Pods_FIPPod_BaiduIDCard_Example.framework */,
+				1DD412ABF46B1297258FDC1C761679EF /* Pods_FIPPod_BaiduIDCard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16FCE642A78CD889D8E67063844B8F11 /* FIPPod_BaiduIDCard */ = {
+			isa = PBXGroup;
+			children = (
+				B652D21F41A6FD8CBB057CE670DCEF4F /* ReplaceMe.m */,
+				68CA30870D2891FD9B15CE41B32810D0 /* Pod */,
+				B849994D81324AF811DECBCF14E787AD /* Support Files */,
+			);
+			name = FIPPod_BaiduIDCard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5007BA6A96D96422CDA8E6B538F719EA /* Pods-FIPPod_BaiduIDCard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F5D7AC470DF6459BFD4CEE2818B2AD3 /* Pods-FIPPod_BaiduIDCard_Example.modulemap */,
+				8DF340D4C30BA045FB29C999A6D6C0CC /* Pods-FIPPod_BaiduIDCard_Example-acknowledgements.markdown */,
+				FFA4366AE45E11EEE18CD8D733EBAE53 /* Pods-FIPPod_BaiduIDCard_Example-acknowledgements.plist */,
+				776D0B33D5A3BEBC9D40969D1545D857 /* Pods-FIPPod_BaiduIDCard_Example-dummy.m */,
+				015C645CE579FC4F92DF8D4F11999018 /* Pods-FIPPod_BaiduIDCard_Example-frameworks.sh */,
+				10E52DFC59ED8B8A1F9F3BEEEA469567 /* Pods-FIPPod_BaiduIDCard_Example-Info.plist */,
+				E9CCA12F91F4C022A95A71A67297B631 /* Pods-FIPPod_BaiduIDCard_Example-umbrella.h */,
+				6AD0DCF151682175496C5F66290C206F /* Pods-FIPPod_BaiduIDCard_Example.debug.xcconfig */,
+				7AB80C23FF45FEBD231F4598CDBC7373 /* Pods-FIPPod_BaiduIDCard_Example.release.xcconfig */,
+			);
+			name = "Pods-FIPPod_BaiduIDCard_Example";
+			path = "Target Support Files/Pods-FIPPod_BaiduIDCard_Example";
+			sourceTree = "<group>";
+		};
+		68CA30870D2891FD9B15CE41B32810D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				55B5E2262B40522C0F263BB3A945CBD3 /* FIPPod_BaiduIDCard.podspec */,
+				6B43C0CFA86836C781A43F34C14AB00B /* LICENSE */,
+				10FAC6E44CF16011198061BE856DF457 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6F726E8533AF27ECEE802A98E8560E73 /* Pods-FIPPod_BaiduIDCard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05430C7883203DBF8A4A43DFD08D5F54 /* Pods-FIPPod_BaiduIDCard_Tests.modulemap */,
+				1091632B6BB848731B37E73F4ADE9C61 /* Pods-FIPPod_BaiduIDCard_Tests-acknowledgements.markdown */,
+				554AE45F4D4CA23898AA2D33A09CB92E /* Pods-FIPPod_BaiduIDCard_Tests-acknowledgements.plist */,
+				9A2A0723E697683E771BA116A65994CA /* Pods-FIPPod_BaiduIDCard_Tests-dummy.m */,
+				65294DA89E1ABB2D8BF58608F3087887 /* Pods-FIPPod_BaiduIDCard_Tests-Info.plist */,
+				DC6D5E1974A02715F0977814F66546F6 /* Pods-FIPPod_BaiduIDCard_Tests-umbrella.h */,
+				EF0A31F6ED4E47EAAD75E34A9F944072 /* Pods-FIPPod_BaiduIDCard_Tests.debug.xcconfig */,
+				08086EBDA76D0DA0968CD415DE86F327 /* Pods-FIPPod_BaiduIDCard_Tests.release.xcconfig */,
+			);
+			name = "Pods-FIPPod_BaiduIDCard_Tests";
+			path = "Target Support Files/Pods-FIPPod_BaiduIDCard_Tests";
+			sourceTree = "<group>";
+		};
+		77228474EB86C5AD5FF810DA9F938241 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16FCE642A78CD889D8E67063844B8F11 /* FIPPod_BaiduIDCard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE3B059CB9F6758C93A717E9CA116FCF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5007BA6A96D96422CDA8E6B538F719EA /* Pods-FIPPod_BaiduIDCard_Example */,
+				6F726E8533AF27ECEE802A98E8560E73 /* Pods-FIPPod_BaiduIDCard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B849994D81324AF811DECBCF14E787AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C27A5EBD0743D4B90640C145DF23671 /* FIPPod_BaiduIDCard.modulemap */,
+				CE1BE1E6E130B5C6090523C346E4D146 /* FIPPod_BaiduIDCard.xcconfig */,
+				6EB3729F71AFEF6D7A4D6CB19E39B8CA /* FIPPod_BaiduIDCard-dummy.m */,
+				8CDD674EA30F2F2B8D7FCB6DF5B78203 /* FIPPod_BaiduIDCard-Info.plist */,
+				60C8B7F9FCEE4971DFE8D0DAAFD81773 /* FIPPod_BaiduIDCard-prefix.pch */,
+				33FCD25D7DEF514D77E8C80013489356 /* FIPPod_BaiduIDCard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FIPPod_BaiduIDCard";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				77228474EB86C5AD5FF810DA9F938241 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				162BA4934412AE107F1DD17DB0B2C51B /* Products */,
+				AE3B059CB9F6758C93A717E9CA116FCF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B8553DD011E7E153DE6B8147536DDB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F69008E3E17AE90383CBC3C659F96C /* Pods-FIPPod_BaiduIDCard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA237921C6089DE8B333B44171D70D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F37DEB9BD9B18755975FE877A70C31 /* FIPPod_BaiduIDCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB17366ABF1518615A9431AFD68C035A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906FDB5F45AD0EE6AA5C27A3E8DED489 /* Pods-FIPPod_BaiduIDCard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A776F1C62EF1D3234015C04A219E916 /* FIPPod_BaiduIDCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3547BF768384BF346E38412F9F8BF6 /* Build configuration list for PBXNativeTarget "FIPPod_BaiduIDCard" */;
+			buildPhases = (
+				8FA237921C6089DE8B333B44171D70D5 /* Headers */,
+				C4E8B642E2EF181152255A3777D29560 /* Sources */,
+				8A99F8EF02DE1C569D23F582856FF99B /* Frameworks */,
+				09FC7534E3CC9FAB74032308AD2FF0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FIPPod_BaiduIDCard;
+			productName = FIPPod_BaiduIDCard;
+			productReference = B5687E52A8DE753702FA3C7693CE645D /* FIPPod_BaiduIDCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		889989FAA1E42FB10C573A1FD8C9D062 /* Pods-FIPPod_BaiduIDCard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10139DF9F9055735F108B09681CCCC95 /* Build configuration list for PBXNativeTarget "Pods-FIPPod_BaiduIDCard_Example" */;
+			buildPhases = (
+				EB17366ABF1518615A9431AFD68C035A /* Headers */,
+				DF4997D122F6C66F4ABDEC3C33E8EFAD /* Sources */,
+				562B52B4E072FDF260A6CF38CFF34B0E /* Frameworks */,
+				7390CE43A0FC44354B1251F4CA65C1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DEF194820B178996944BBD7FAD1C0C /* PBXTargetDependency */,
+			);
+			name = "Pods-FIPPod_BaiduIDCard_Example";
+			productName = "Pods-FIPPod_BaiduIDCard_Example";
+			productReference = 2B1A746AE2CF91E8CC2AD0357818EBDA /* Pods_FIPPod_BaiduIDCard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADAFC8943775332A909712864144B813 /* Pods-FIPPod_BaiduIDCard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E4E59EBA132BC39F17598A43D28875 /* Build configuration list for PBXNativeTarget "Pods-FIPPod_BaiduIDCard_Tests" */;
+			buildPhases = (
+				2B8553DD011E7E153DE6B8147536DDB3 /* Headers */,
+				000898F33CCB9755B996E604D2DC1BDF /* Sources */,
+				63A120A4E7F66BDA4B6AE60107E21EA6 /* Frameworks */,
+				2134609DDFA282DABE620BA72B3F12AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBE6316E36667DED27D0F436C4E969F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FIPPod_BaiduIDCard_Tests";
+			productName = "Pods-FIPPod_BaiduIDCard_Tests";
+			productReference = 1DD412ABF46B1297258FDC1C761679EF /* Pods_FIPPod_BaiduIDCard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 162BA4934412AE107F1DD17DB0B2C51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A776F1C62EF1D3234015C04A219E916 /* FIPPod_BaiduIDCard */,
+				889989FAA1E42FB10C573A1FD8C9D062 /* Pods-FIPPod_BaiduIDCard_Example */,
+				ADAFC8943775332A909712864144B813 /* Pods-FIPPod_BaiduIDCard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FC7534E3CC9FAB74032308AD2FF0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2134609DDFA282DABE620BA72B3F12AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7390CE43A0FC44354B1251F4CA65C1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000898F33CCB9755B996E604D2DC1BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93879C842A361FE3AE9A28D0A206067 /* Pods-FIPPod_BaiduIDCard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E8B642E2EF181152255A3777D29560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A21AC085C675DC62AE1AA4B8058743 /* FIPPod_BaiduIDCard-dummy.m in Sources */,
+				1E41C12A85C911E1F59792DF9E915A1B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4997D122F6C66F4ABDEC3C33E8EFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5217F6807E75B225EB6083293540A4 /* Pods-FIPPod_BaiduIDCard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82DEF194820B178996944BBD7FAD1C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FIPPod_BaiduIDCard;
+			target = 5A776F1C62EF1D3234015C04A219E916 /* FIPPod_BaiduIDCard */;
+			targetProxy = 36E20E5E09EAC139D933D7BFF9776556 /* PBXContainerItemProxy */;
+		};
+		BBE6316E36667DED27D0F436C4E969F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FIPPod_BaiduIDCard_Example";
+			target = 889989FAA1E42FB10C573A1FD8C9D062 /* Pods-FIPPod_BaiduIDCard_Example */;
+			targetProxy = 3990F8BB30C310EA0675EAED4BE4AF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F189936467B73D541CA6CB11F73343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1BE1E6E130B5C6090523C346E4D146 /* FIPPod_BaiduIDCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FIPPod_BaiduIDCard/FIPPod_BaiduIDCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FIPPod_BaiduIDCard/FIPPod_BaiduIDCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FIPPod_BaiduIDCard/FIPPod_BaiduIDCard.modulemap";
+				PRODUCT_MODULE_NAME = FIPPod_BaiduIDCard;
+				PRODUCT_NAME = FIPPod_BaiduIDCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DC703DC7C36D0A42E692095F43B11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB80C23FF45FEBD231F4598CDBC7373 /* Pods-FIPPod_BaiduIDCard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Example/Pods-FIPPod_BaiduIDCard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Example/Pods-FIPPod_BaiduIDCard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54AD5E1154DF3C5C3728F97414E6F15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD0DCF151682175496C5F66290C206F /* Pods-FIPPod_BaiduIDCard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Example/Pods-FIPPod_BaiduIDCard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Example/Pods-FIPPod_BaiduIDCard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BA5D0E0758A204B8C67A1EFFAAEECBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08086EBDA76D0DA0968CD415DE86F327 /* Pods-FIPPod_BaiduIDCard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Tests/Pods-FIPPod_BaiduIDCard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Tests/Pods-FIPPod_BaiduIDCard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C39E4DE04DD7752994F8E38A835FFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0A31F6ED4E47EAAD75E34A9F944072 /* Pods-FIPPod_BaiduIDCard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Tests/Pods-FIPPod_BaiduIDCard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FIPPod_BaiduIDCard_Tests/Pods-FIPPod_BaiduIDCard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E1C9F5F9C2F52ABA480BD0624F68CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1BE1E6E130B5C6090523C346E4D146 /* FIPPod_BaiduIDCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FIPPod_BaiduIDCard/FIPPod_BaiduIDCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FIPPod_BaiduIDCard/FIPPod_BaiduIDCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FIPPod_BaiduIDCard/FIPPod_BaiduIDCard.modulemap";
+				PRODUCT_MODULE_NAME = FIPPod_BaiduIDCard;
+				PRODUCT_NAME = FIPPod_BaiduIDCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10139DF9F9055735F108B09681CCCC95 /* Build configuration list for PBXNativeTarget "Pods-FIPPod_BaiduIDCard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AD5E1154DF3C5C3728F97414E6F15A /* Debug */,
+				2DC703DC7C36D0A42E692095F43B11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3547BF768384BF346E38412F9F8BF6 /* Build configuration list for PBXNativeTarget "FIPPod_BaiduIDCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F189936467B73D541CA6CB11F73343E /* Debug */,
+				8E1C9F5F9C2F52ABA480BD0624F68CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E4E59EBA132BC39F17598A43D28875 /* Build configuration list for PBXNativeTarget "Pods-FIPPod_BaiduIDCard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C39E4DE04DD7752994F8E38A835FFAF /* Debug */,
+				6BA5D0E0758A204B8C67A1EFFAAEECBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

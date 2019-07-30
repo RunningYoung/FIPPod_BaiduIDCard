@@ -1,0 +1,6 @@
+framework module Pods_FIPPod_BaiduIDCard_Example {
+  umbrella header "Pods-FIPPod_BaiduIDCard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

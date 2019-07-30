@@ -1,0 +1,16 @@
+PODS:
+  - FIPPod_BaiduIDCard (0.1.0)
+
+DEPENDENCIES:
+  - FIPPod_BaiduIDCard (from `../`)
+
+EXTERNAL SOURCES:
+  FIPPod_BaiduIDCard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FIPPod_BaiduIDCard: 20cdcf8558d928f16d4cd4c614281842c2cb0df8
+
+PODFILE CHECKSUM: c7622d6bc0f77d915656bea46039f5ca2a7df58c
+
+COCOAPODS: 1.7.4
